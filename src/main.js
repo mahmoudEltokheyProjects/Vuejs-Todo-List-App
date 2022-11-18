@@ -3,7 +3,9 @@ import { createPinia } from 'pinia'
 
 import App from './App.vue'
 import router from './router'
-// bootstrap 5 
+// ++++++++++++ mainStyle.css ++++++++++++
+import "./assets/mainStyle.css"
+// ++++++++++++ bootstrap 5 ++++++++++++
 import 'bootstrap/dist/css/bootstrap.min.css' 
 // ++++++++++++ fontawesome library ++++++++++++
 /* import the fontawesome css */

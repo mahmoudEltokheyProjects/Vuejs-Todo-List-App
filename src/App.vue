@@ -1,13 +1,21 @@
-<script setup>
+<script>
 import { RouterLink, RouterView } from 'vue-router'
-import TodoApp from './components/TodoApp.vue'
+import NavbarComp from './components/NavbarComp.vue'
+import ColorBoxComp from './components/ColorBoxComp.vue';
+import BottomUpBtn from './components/BottomUpBtn.vue';
+
+export default {
+  components : { NavbarComp , ColorBoxComp , BottomUpBtn}
+}
 </script>
 
-<template>
 
-    <TodoApp />  
-    
+<template>
+ 
+  <NavbarComp/>
+  <ColorBoxComp/>
   <RouterView />
+  <BottomUpBtn/>
 </template>
 
 <style scoped>

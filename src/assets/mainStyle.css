@@ -1,0 +1,23 @@
+/* ########################################## Scrollbar Style ########################################## */
+::-webkit-scrollbar
+{
+    width: 10px ;
+    height: 10px ;
+}
+/* هو الاطار اللي البكرة بتتحرك فيها */
+::-webkit-scrollbar-track
+{
+    border-radius: 10px ;
+    box-shadow: inset 0 0 10px #555;
+}
+/* هو البكرة الي بتتحرك  */
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px ;
+    background-color:  #607d8b ; 
+}
+/*  scrollbar بتاعت ال corners هي الزوايا */
+::-webkit-scrollbar-corner
+{
+    display: none ;
+}
